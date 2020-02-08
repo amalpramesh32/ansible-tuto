@@ -150,48 +150,48 @@ Check [this repository](https://github.com/turkenh/ansible-interactive-tutorial)
 ### Using Vagrant with the tutorial
 
 It's highly recommended to use Vagrant to follow this tutorial. If you don't have 
-it already, setting up should be quite easy and is described in [step-00/README.md](https://github.com/leucos/ansible-tuto/tree/master/step-00/README.md).
+it already, setting up should be quite easy and is described in [step-00/README.md](./step-00/README.md).
 
 If you wish to proceed without Vagrant (not recommended!), go straight to
-[step-01/README.md](https://github.com/leucos/ansible-tuto/tree/master/step-01).
+[step-01/README.md](./step-01).
 
 ## Contents
 
 [Terminology](https://docs.ansible.com/ansible/glossary.html):
  - [command or
    action](https://docs.ansible.com/ansible/intro_adhoc.html): [ansible module](https://docs.ansible.com/ansible/modules.html) executed in
-   stand-alone mode. Intro in [step-02](https://github.com/leucos/ansible-tuto/tree/master/step-02).
+   stand-alone mode. Intro in [step-02](./step-02).
  - task: combines an action (a module and its arguments) with a name
    and optionally some other keywords (like looping directives).
  - play: a yaml structure executing a list of roles or tasks over a list
    of hosts
  - [playbook](https://docs.ansible.com/ansible/playbooks_intro.html):
    yaml file containing multiple plays. Intro in
-   [step-04](https://github.com/leucos/ansible-tuto/tree/master/step-04).
+   [step-04](./step-04).
  - [role](https://docs.ansible.com/ansible/playbooks_roles.html): an
    organisational unit grouping tasks together in order to achieve
    something (install a piece of software for instance). Intro in
-   [step-12](https://github.com/leucos/ansible-tuto/tree/master/step-12).
+   [step-12](./step-12).
 
 Just in case you want to skip to a specific step, here is a topic table of contents.
 
-- [00. Vagrant Setup](https://github.com/leucos/ansible-tuto/tree/master/step-00)
-- [01. Basic inventory](https://github.com/leucos/ansible-tuto/tree/master/step-01)
-- [02. First modules and facts](https://github.com/leucos/ansible-tuto/tree/master/step-02)
-- [03. Groups and variables](https://github.com/leucos/ansible-tuto/tree/master/step-03)
-- [04. Playbooks](https://github.com/leucos/ansible-tuto/tree/master/step-04)
-- [05. Playbooks, pushing files on nodes](https://github.com/leucos/ansible-tuto/tree/master/step-05)
-- [06. Playbooks and failures](https://github.com/leucos/ansible-tuto/tree/master/step-06)
-- [07. Playbook conditionals](https://github.com/leucos/ansible-tuto/tree/master/step-07)
-- [08. Git module](https://github.com/leucos/ansible-tuto/tree/master/step-08)
-- [09. Extending to several hosts](https://github.com/leucos/ansible-tuto/tree/master/step-09)
-- [10. Templates](https://github.com/leucos/ansible-tuto/tree/master/step-10)
-- [11. Variables again](https://github.com/leucos/ansible-tuto/tree/master/step-11)
-- [12. Migrating to roles](https://github.com/leucos/ansible-tuto/tree/master/step-12)
-- [13. Using tags (TBD)](https://github.com/leucos/ansible-tuto/tree/master/step-13)
-- [14. Roles dependencies (TBD)](https://github.com/leucos/ansible-tuto/tree/master/step-14)
-- [15. Debugging (TBD)](https://github.com/leucos/ansible-tuto/tree/master/step-15)
-- [99. The end](https://github.com/leucos/ansible-tuto/tree/master/step-99)
+- [00. Vagrant Setup](./step-00)
+- [01. Basic inventory](./step-01)
+- [02. First modules and facts](./step-02)
+- [03. Groups and variables](./step-03)
+- [04. Playbooks](./step-04)
+- [05. Playbooks, pushing files on nodes](./step-05)
+- [06. Playbooks and failures](./step-06)
+- [07. Playbook conditionals](./step-07)
+- [08. Git module](./step-08)
+- [09. Extending to several hosts](./step-09)
+- [10. Templates](./step-10)
+- [11. Variables again](./step-11)
+- [12. Migrating to roles](./step-12)
+- [13. Using tags (TBD)](./step-13)
+- [14. Roles dependencies (TBD)](./step-14)
+- [15. Debugging (TBD)](./step-15)
+- [99. The end](./step-99)
 
 ## Contributing
 

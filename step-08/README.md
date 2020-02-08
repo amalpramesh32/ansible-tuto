@@ -176,4 +176,4 @@ host1              : ok=2    changed=1    unreachable=0    failed=0
 ```
 
 Ok, let's deploy another web server in
-[step-09](https://github.com/leucos/ansible-tuto/tree/master/step-09).
+[step-09](./step-09).

@@ -88,4 +88,4 @@ ansible 2.7.1
 ```
 
 Now head to the first step in
-[step-01](https://github.com/leucos/ansible-tuto/tree/master/step-01).
+[step-01](./step-01).
