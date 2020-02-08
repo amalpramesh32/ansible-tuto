@@ -101,13 +101,14 @@ listen cluster
 {% endfor %}
     option httpchk HEAD /index.php HTTP/1.0
 ```
-
+{% raw %}
 Note that we also introduced an `{% if ...` block. This block enclosed
 will only be rendered if the test is true. So if we define
 `haproxy_stats_socket` somewhere for our loadbalancer (we might even use the
 `--extra-vars="haproxy_stats_sockets=/tmp/sock"` at the command line), the enclosed
 line will appear in the generated configuration file (note that the
 suggested setup is highly insecure!).
+{% endraw %}
 
 Let's go:
 
